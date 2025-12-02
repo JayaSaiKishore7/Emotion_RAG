@@ -1,0 +1,12 @@
+﻿venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.env
+data/
+data/faiss_index/
+*.pkl
+*.faiss
+.DS_Store
