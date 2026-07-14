@@ -4,7 +4,7 @@
 
 Streamlit app for Facial Emotion-Driven Review Analysis.
 
-This version includes extensive debugging and error handling.
+This version includes extensive debugging and error handling..
 
 """
 
@@ -83,6 +83,16 @@ layout ="wide"
 
 )
 
+## st .set_page_config (
+
+## page_title ="Facial Emotion RAG System",
+
+## page_icon ="🤖",
+
+## layout ="wide"
+
+# )
+
 
 
 st .title ("Facial Emotion-Driven Review Analysis 🤖")
@@ -100,6 +110,13 @@ with st .sidebar :
     st .code (f"Python: {sys .version [:20 ]}...")
 
     st .code (f"Working Dir: {os .getcwd ()}")
+
+   ## st .header ("Debug Information")
+
+   ## st .code (f"Python: {sys .version [:30 ]}...")
+
+   ## st .code (f"Working Dir: {os .getcwd ()}")
+
 
 
 
